@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 
 <html>
 <head>
@@ -24,11 +24,7 @@
       font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
     }
     #rainbow-message {
-      position: absolute;
-      right: 10px;
-      top: 10px;
-      box-shadow: -5px 10px 15px gray;
-      -moz-box-shadow: -5px 10px 15px gray;
+      text-align: center;
       font-family: sans-serif;
     }
     
@@ -45,19 +41,20 @@
 	}
 	window.onkeydown=keydownHandler;
    </script>
-		
+
 </head>
 
 <body>
 
-<img src="forkit.gif" id="octocat" alt="" />
+    <img src="forkit.gif" id="octocat" alt="" />
 
-<p>
-  Fork me? No, fork you!
-</p>
-<div id="rainbow-message" style="display:none">
-Double repositories all the way across the sky!<br/>
-<a href="http://help.github.com/fork-a-repo/">What does it mean?</a>
-</div>
+    <p>
+      Fork me? No, fork you!
+    </p>
+
+  <div id="rainbow-message">
+    <p><a href="http://help.github.com/fork-a-repo/">What does it mean?</a><p>
+  </div>
+
 </body>
 </html>
